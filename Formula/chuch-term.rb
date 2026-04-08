@@ -7,19 +7,19 @@ class ChuchTerm < Formula
   on_macos do
     on_arm do
       url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.0/chuch-term-macos-arm.tar.gz"
-      sha256 "eb95d482f9c0787e6b00103bc346d351ada75b976163e5f63bdbc6a8af6514e6"
+      sha256 "1044fc64c513c0ecd84d479d998e6bde6a6b8e4fe64f293003d8a98a02c85b1d"
     end
 
     on_intel do
       url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.0/chuch-term-macos-intel.tar.gz"
-      sha256 "5253ad704281c1ae9c3844ef9451f1854317ccfb66dc33f7544b49410756a3cc"
+      sha256 "ec2770e9e860ff43198b43630294160fe97adf68e062e5d86a80dee1a2b758c4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.0/chuch-term-linux-x86_64.tar.gz"
-      sha256 "78278f9221831e9808f1b8ba61b14496405e55c495aa2c0cd9fe4d05c1cea8b6"
+      sha256 "72ea6f0c7b358d45d588e43d0ea435d8e9fd374862f31028e919a3d8ae98422e"
     end
   end
 
