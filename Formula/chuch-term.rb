@@ -1,25 +1,25 @@
 class ChuchTerm < Formula
   desc "Fast, minimal terminal text editor"
   homepage "https://github.com/KrzysPawlo/chuch-term"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.1/chuch-term-macos-arm.tar.gz"
-      sha256 "4309a36566ae6ada6fb2a0d6f81d62bdbe4a851758dbbe2c7428ef0933032193"
+      url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.2/chuch-term-macos-arm.tar.gz"
+      sha256 "f1d72ac5b80a5f3be03f4e496eac22904ae15353fe01bf4137c0102c6314180d"
     end
 
     on_intel do
-      url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.1/chuch-term-macos-intel.tar.gz"
-      sha256 "f82fb3369d0c15c6b7ef13dbc0d448ef9bd3b4065479fc3c1387bc20e41b90ad"
+      url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.2/chuch-term-macos-intel.tar.gz"
+      sha256 "f40f264d04dba5072aed40a3585662958dde1fd07dc7af6a46df0059569b479e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.1/chuch-term-linux-x86_64.tar.gz"
-      sha256 "8201875d51d85410cb00259b3e79d5a072e3e0cff7327ba91b3342e5e954d465"
+      url "https://github.com/KrzysPawlo/chuch-term/releases/download/v0.6.2/chuch-term-linux-x86_64.tar.gz"
+      sha256 "6eade2ad7be83ef73558ce0f1ffe57521e74a44dabb25b2fa3349568029c82bc"
     end
   end
 
